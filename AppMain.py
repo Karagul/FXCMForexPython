@@ -1,7 +1,7 @@
 from forexconnect import fxcorepy, ForexConnect
 
-user_id = "D291092737"
-password = "1066"
+user_id = ""
+password = ""
 def session_status_changed(session: fxcorepy.O2GSession,
                            status: fxcorepy.AO2GSessionStatus.O2GSessionStatus):
     print("Trading session status: " + str(status))
